@@ -8,6 +8,7 @@ dob1_y = int(dob1[6:])
 dob2_d = int(dob2[:2])
 dob2_m = int(dob2[3:5])
 dob2_y = int(dob2[6:])
+
 younger = ""
 if dob1_y > dob2_y:
     younger = name1
@@ -24,6 +25,7 @@ else:
         elif dob1_d < dob2_d:
             younger = name2
         else:
+            # case where both born on same day
             if name1>name2:
                 younger = name2
             else:
