@@ -19,10 +19,13 @@ average=0.0
 for i in marks:
     print(i, end="  ")
     average += i
-print("\nAverage:", average/len(marks))
+average /= len(marks)
+print("\nAverage:", average)
 print("Median:", end=" ")
 if len(marks) % 2 != 0:
-    print(marks[len(marks)//2])
+    median = marks[len(marks)//2]
+    print(median)
 else:
     middle = len(marks)//2
-    print((marks[middle] + marks[middle-1])/2)
+    median = (marks[middle] + marks[middle - 1]) / 2
+    print(median)
