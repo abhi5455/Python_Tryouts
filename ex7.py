@@ -23,7 +23,7 @@ else:
             younger = name2
         else:
             # case where both born on same day
-            if name1>name2:
+            if name1 > name2:
                 younger = name2
             else:
                 younger = name1
