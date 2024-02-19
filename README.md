@@ -9,7 +9,5 @@
 7. You are given the dates of birth of two persons, not necessarily from the same family. Your task is to find the younger of the two. If both of them share the same date of birth, then the younger of the two is assumed to be that person whose name comes first in alphabetical order (names will follow Python's capitalize case format).
    The input will have four lines. The first two lines correspond to the first person, while the last two lines correspond to the second person. For each person, the first line corresponds to the name and the second line corresponds to the date of birth in DD-MM-YYYY format. Your output should be the name of the younger of the two.
 8. Slicing: Extracting a sublist from a list 
-   String[start:stop:step]. Indexing eg:
-   
-   ![Python-Indexing](https://github.com/abhi5455/Python_Tryouts/assets/118897422/70391f92-3782-40cd-ab64-2005606949b8)
-10. Reversing a String using Slicing
+   String[start:stop:step]
+9. Reversing a String using Slicing
