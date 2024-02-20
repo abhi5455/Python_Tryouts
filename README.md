@@ -11,3 +11,5 @@
 8. Slicing: Extracting a sublist from a list 
    String[start:stop:step]
 9. Reversing a String using Slicing
+10. Plotting Graphs
+11. Calendar
